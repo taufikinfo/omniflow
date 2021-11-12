@@ -1,0 +1,17 @@
+{
+    "name": "taufik/omniflow",
+    "description": "PHP Library to working with BPMN, in a fast and scalable way",
+    "type": "library",
+    "keywords": ["php","bpmn","workflow"],
+    "autoload": {
+         "psr-0": {
+            "OmniFlow": "./"
+        },
+        "classmap" : ["classes/","models/","./"]
+    },
+    "include-path": [
+        "./"
+    ],
+    "license": "PHP",
+    "minimum-stability": "dev"
+}
