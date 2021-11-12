@@ -1,0 +1,424 @@
+17:50:24,007 INFO  LoadCase for 5
+17:50:24,023 INFO  Process:load 33
+17:50:24,025 INFO  path : files/workflow/33/proc_33.bpmn
+17:50:24,035 INFO  model:process tag Process_1 - Process_1
+17:50:24,037 INFO  Participant loaded from xml ProcessRef = Process_1
+17:50:24,043 INFO  Process:load 33 - ended @ 0.018768072128296
+17:50:24,043 INFO  Case Loaded Array
+(
+    [expenseType] => travel
+    [Amount] => 
+    [status] => 
+    [Description] => 
+    [reason] => 
+    [Date] => 
+    [Email] => 
+    [Radio] => 
+)
+
+17:50:24,043 INFO  ProcessItem Invoke : userTask - Approve Claim - from:   UserTask_030qglm -input=
+17:50:24,044 INFO  Run Node: class:Task type: userTask - Approve Claim - UserTask_030qglm 
+17:50:24,047 INFO  Task.run privileges : Array
+(
+    [0] => V
+    [1] => P
+    [2] => T
+)
+
+17:50:24,050 INFO  InsertRow -wf_assignment Array
+(
+    [id] => 
+    [userId] => 1
+    [userName] => Taufik Rahman
+    [caseId] => 5
+    [caseItemId] => 40
+    [actor] => 
+    [userGroup] => 
+    [workScope] => 
+    [workScopeType] => 
+    [privilege] => P
+    [status] => A
+    [canChange] => 
+    [asActor] => Y
+)
+
+17:50:24,122 INFO  getActionViewApprove Claim type: postForm 
+17:50:24,122 INFO  Action View action type:
+17:50:24,122 INFO  actionView:
+17:50:24,123 INFO  default form field name: expenseType type: OmniFlow\BPMN\ItemVariable Object
+(
+    [refId] => 1565073781046
+    [field] => 
+    [view] => true
+    [edit] => false
+    [options] => 
+    [name] => expenseType
+)
+edit:view:1
+17:50:24,123 INFO  field optionsArray
+(
+    [0] => 
+)
+
+17:50:24,123 INFO  default form field name: Amount type: OmniFlow\BPMN\ItemVariable Object
+(
+    [refId] => 1565140704004
+    [field] => 
+    [view] => true
+    [edit] => false
+    [options] => 
+    [name] => Amount
+)
+edit:view:1
+17:50:24,123 INFO  field optionsArray
+(
+    [0] => 
+)
+
+17:50:24,124 INFO  default form field name: Date type: OmniFlow\BPMN\ItemVariable Object
+(
+    [refId] => 1567693686569
+    [field] => 
+    [view] => true
+    [edit] => true
+    [options] => 
+    [name] => Date
+)
+edit:1view:1
+17:50:24,124 INFO  field optionsArray
+(
+    [0] => 
+)
+
+18:02:08,138 INFO  Process:load 30
+18:02:08,145 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:08,146 INFO  loading messagemessage
+18:02:08,146 INFO  loading messagemessage
+18:02:08,146 INFO  loading messagemessage
+18:02:08,146 INFO  loading messagemessage
+18:02:08,146 INFO  loading messagemessage
+18:02:08,177 INFO  model:process tag Process_1 - Approver
+18:02:08,177 INFO  model:process tag Requester - Requester
+18:02:08,177 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:08,177 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:08,178 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:08,178 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:08,193 INFO  located a condition expresssionstatus="rejected"
+18:02:08,193 INFO  located a condition expresssionstatus="approved"
+18:02:08,212 INFO  Process:load 30 - ended @ 0.067391872406006
+18:02:08,240 INFO  Process:load 30
+18:02:08,242 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:08,243 INFO  loading messagemessage
+18:02:08,244 INFO  loading messagemessage
+18:02:08,244 INFO  loading messagemessage
+18:02:08,244 INFO  loading messagemessage
+18:02:08,244 INFO  loading messagemessage
+18:02:08,248 INFO  model:process tag Process_1 - Approver
+18:02:08,248 INFO  model:process tag Requester - Requester
+18:02:08,248 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:08,248 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:08,248 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:08,248 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:08,248 INFO  located a condition expresssionstatus="rejected"
+18:02:08,248 INFO  located a condition expresssionstatus="approved"
+18:02:08,250 INFO  Process:load 30 - ended @ 0.0081899166107178
+18:02:08,304 INFO  Process:load 30
+18:02:08,306 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:08,308 INFO  loading messagemessage
+18:02:08,308 INFO  loading messagemessage
+18:02:08,308 INFO  loading messagemessage
+18:02:08,308 INFO  loading messagemessage
+18:02:08,308 INFO  loading messagemessage
+18:02:08,313 INFO  model:process tag Process_1 - Approver
+18:02:08,313 INFO  model:process tag Requester - Requester
+18:02:08,313 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:08,313 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:08,313 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:08,313 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:08,314 INFO  located a condition expresssionstatus="rejected"
+18:02:08,314 INFO  located a condition expresssionstatus="approved"
+18:02:08,316 INFO  Process:load 30 - ended @ 0.010277032852173
+18:02:46,621 INFO  Process:load 30
+18:02:46,640 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:46,641 INFO  loading messagemessage
+18:02:46,641 INFO  loading messagemessage
+18:02:46,641 INFO  loading messagemessage
+18:02:46,641 INFO  loading messagemessage
+18:02:46,641 INFO  loading messagemessage
+18:02:46,646 INFO  model:process tag Process_1 - Approver
+18:02:46,646 INFO  model:process tag Requester - Requester
+18:02:46,646 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:46,646 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:46,646 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:46,646 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:46,647 INFO  located a condition expresssionstatus="rejected"
+18:02:46,647 INFO  located a condition expresssionstatus="approved"
+18:02:46,654 INFO  Process:load 30 - ended @ 0.014929056167603
+18:02:46,778 INFO  Process:load 30
+18:02:46,779 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:46,781 INFO  loading messagemessage
+18:02:46,781 INFO  loading messagemessage
+18:02:46,781 INFO  loading messagemessage
+18:02:46,781 INFO  loading messagemessage
+18:02:46,781 INFO  loading messagemessage
+18:02:46,789 INFO  model:process tag Process_1 - Approver
+18:02:46,789 INFO  model:process tag Requester - Requester
+18:02:46,789 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:46,789 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:46,789 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:46,789 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:46,790 INFO  located a condition expresssionstatus="rejected"
+18:02:46,790 INFO  located a condition expresssionstatus="approved"
+18:02:46,794 INFO  Process:load 30 - ended @ 0.01553201675415
+18:02:46,848 INFO  Process:load 30
+18:02:46,849 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:46,850 INFO  loading messagemessage
+18:02:46,850 INFO  loading messagemessage
+18:02:46,850 INFO  loading messagemessage
+18:02:46,851 INFO  loading messagemessage
+18:02:46,851 INFO  loading messagemessage
+18:02:46,853 INFO  model:process tag Process_1 - Approver
+18:02:46,853 INFO  model:process tag Requester - Requester
+18:02:46,853 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:46,853 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:46,854 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:46,854 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:46,854 INFO  located a condition expresssionstatus="rejected"
+18:02:46,854 INFO  located a condition expresssionstatus="approved"
+18:02:46,855 INFO  Process:load 30 - ended @ 0.0065159797668457
+18:02:54,279 INFO  Process:load 30
+18:02:54,284 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:54,285 INFO  loading messagemessage
+18:02:54,285 INFO  loading messagemessage
+18:02:54,285 INFO  loading messagemessage
+18:02:54,285 INFO  loading messagemessage
+18:02:54,285 INFO  loading messagemessage
+18:02:54,290 INFO  model:process tag Process_1 - Approver
+18:02:54,290 INFO  model:process tag Requester - Requester
+18:02:54,290 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:54,290 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:54,290 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:54,290 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:54,291 INFO  located a condition expresssionstatus="rejected"
+18:02:54,291 INFO  located a condition expresssionstatus="approved"
+18:02:54,295 INFO  Process:load 30 - ended @ 0.011716842651367
+18:02:54,315 INFO  Process:load 30
+18:02:54,316 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:54,316 INFO  loading messagemessage
+18:02:54,316 INFO  loading messagemessage
+18:02:54,317 INFO  loading messagemessage
+18:02:54,317 INFO  loading messagemessage
+18:02:54,317 INFO  loading messagemessage
+18:02:54,319 INFO  model:process tag Process_1 - Approver
+18:02:54,319 INFO  model:process tag Requester - Requester
+18:02:54,319 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:54,319 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:54,319 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:54,319 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:54,320 INFO  located a condition expresssionstatus="rejected"
+18:02:54,320 INFO  located a condition expresssionstatus="approved"
+18:02:54,321 INFO  Process:load 30 - ended @ 0.0056869983673096
+18:02:54,366 INFO  Process:load 30
+18:02:54,366 INFO  path : files/workflow/30/proc_30.bpmn
+18:02:54,367 INFO  loading messagemessage
+18:02:54,367 INFO  loading messagemessage
+18:02:54,367 INFO  loading messagemessage
+18:02:54,367 INFO  loading messagemessage
+18:02:54,367 INFO  loading messagemessage
+18:02:54,370 INFO  model:process tag Process_1 - Approver
+18:02:54,370 INFO  model:process tag Requester - Requester
+18:02:54,370 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:02:54,370 INFO  Participant loaded from xml ProcessRef = Process_1
+18:02:54,370 INFO  Participant loaded from xml ProcessRef = Requester
+18:02:54,370 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:02:54,370 INFO  located a condition expresssionstatus="rejected"
+18:02:54,370 INFO  located a condition expresssionstatus="approved"
+18:02:54,371 INFO  Process:load 30 - ended @ 0.0053489208221436
+18:03:11,611 INFO  Process:load 30
+18:03:11,618 INFO  path : files/workflow/30/proc_30.bpmn
+18:03:11,618 INFO  loading messagemessage
+18:03:11,618 INFO  loading messagemessage
+18:03:11,619 INFO  loading messagemessage
+18:03:11,619 INFO  loading messagemessage
+18:03:11,619 INFO  loading messagemessage
+18:03:11,624 INFO  model:process tag Process_1 - Approver
+18:03:11,624 INFO  model:process tag Requester - Requester
+18:03:11,624 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:03:11,625 INFO  Participant loaded from xml ProcessRef = Process_1
+18:03:11,625 INFO  Participant loaded from xml ProcessRef = Requester
+18:03:11,625 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:03:11,625 INFO  located a condition expresssionstatus="rejected"
+18:03:11,625 INFO  located a condition expresssionstatus="approved"
+18:03:11,630 INFO  Process:load 30 - ended @ 0.013064861297607
+18:03:11,646 INFO  Process:load 30
+18:03:11,648 INFO  path : files/workflow/30/proc_30.bpmn
+18:03:11,650 INFO  loading messagemessage
+18:03:11,650 INFO  loading messagemessage
+18:03:11,650 INFO  loading messagemessage
+18:03:11,650 INFO  loading messagemessage
+18:03:11,650 INFO  loading messagemessage
+18:03:11,653 INFO  model:process tag Process_1 - Approver
+18:03:11,653 INFO  model:process tag Requester - Requester
+18:03:11,653 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:03:11,653 INFO  Participant loaded from xml ProcessRef = Process_1
+18:03:11,653 INFO  Participant loaded from xml ProcessRef = Requester
+18:03:11,653 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:03:11,653 INFO  located a condition expresssionstatus="rejected"
+18:03:11,653 INFO  located a condition expresssionstatus="approved"
+18:03:11,655 INFO  Process:load 30 - ended @ 0.0072879791259766
+18:03:11,700 INFO  Process:load 30
+18:03:11,700 INFO  path : files/workflow/30/proc_30.bpmn
+18:03:11,701 INFO  loading messagemessage
+18:03:11,701 INFO  loading messagemessage
+18:03:11,701 INFO  loading messagemessage
+18:03:11,701 INFO  loading messagemessage
+18:03:11,701 INFO  loading messagemessage
+18:03:11,704 INFO  model:process tag Process_1 - Approver
+18:03:11,704 INFO  model:process tag Requester - Requester
+18:03:11,704 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:03:11,704 INFO  Participant loaded from xml ProcessRef = Process_1
+18:03:11,704 INFO  Participant loaded from xml ProcessRef = Requester
+18:03:11,704 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:03:11,704 INFO  located a condition expresssionstatus="rejected"
+18:03:11,704 INFO  located a condition expresssionstatus="approved"
+18:03:11,706 INFO  Process:load 30 - ended @ 0.00553297996521
+18:04:06,884 INFO  LoadCase for 5
+18:04:06,901 INFO  Process:load 33
+18:04:06,903 INFO  path : files/workflow/33/proc_33.bpmn
+18:04:06,909 INFO  model:process tag Process_1 - Process_1
+18:04:06,910 INFO  Participant loaded from xml ProcessRef = Process_1
+18:04:06,919 INFO  Process:load 33 - ended @ 0.016788959503174
+18:04:06,919 INFO  Case Loaded Array
+(
+    [expenseType] => travel
+    [Amount] => 
+    [status] => 
+    [Description] => 
+    [reason] => 
+    [Date] => 
+    [Email] => 
+    [Radio] => 
+)
+
+18:04:06,919 INFO  ProcessItem Invoke : userTask - Approve Claim - from:   UserTask_030qglm -input=
+18:04:06,919 INFO  Run Node: class:Task type: userTask - Approve Claim - UserTask_030qglm 
+18:04:06,920 INFO  Task.run privileges : Array
+(
+    [0] => V
+    [1] => P
+    [2] => T
+)
+
+18:04:06,921 INFO  InsertRow -wf_assignment Array
+(
+    [id] => 
+    [userId] => 1
+    [userName] => Taufik Rahman
+    [caseId] => 5
+    [caseItemId] => 40
+    [actor] => 
+    [userGroup] => 
+    [workScope] => 
+    [workScopeType] => 
+    [privilege] => P
+    [status] => A
+    [canChange] => 
+    [asActor] => Y
+)
+
+18:04:06,980 INFO  getActionViewApprove Claim type: postForm 
+18:04:06,981 INFO  Action View action type:
+18:04:06,981 INFO  actionView:
+18:04:06,983 INFO  default form field name: expenseType type: OmniFlow\BPMN\ItemVariable Object
+(
+    [refId] => 1565073781046
+    [field] => 
+    [view] => true
+    [edit] => false
+    [options] => 
+    [name] => expenseType
+)
+edit:view:1
+18:04:06,983 INFO  field optionsArray
+(
+    [0] => 
+)
+
+18:04:06,983 INFO  default form field name: Amount type: OmniFlow\BPMN\ItemVariable Object
+(
+    [refId] => 1565140704004
+    [field] => 
+    [view] => true
+    [edit] => false
+    [options] => 
+    [name] => Amount
+)
+edit:view:1
+18:04:06,983 INFO  field optionsArray
+(
+    [0] => 
+)
+
+18:04:06,983 INFO  default form field name: Date type: OmniFlow\BPMN\ItemVariable Object
+(
+    [refId] => 1567693686569
+    [field] => 
+    [view] => true
+    [edit] => true
+    [options] => 
+    [name] => Date
+)
+edit:1view:1
+18:04:06,983 INFO  field optionsArray
+(
+    [0] => 
+)
+
+18:06:57,674 INFO  Process:load 30
+18:06:57,684 INFO  path : files/workflow/30/proc_30.bpmn
+18:06:57,687 INFO  loading messagemessage
+18:06:57,687 INFO  loading messagemessage
+18:06:57,687 INFO  loading messagemessage
+18:06:57,687 INFO  loading messagemessage
+18:06:57,687 INFO  loading messagemessage
+18:06:57,694 INFO  model:process tag Process_1 - Approver
+18:06:57,694 INFO  model:process tag Requester - Requester
+18:06:57,694 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:06:57,695 INFO  Participant loaded from xml ProcessRef = Process_1
+18:06:57,695 INFO  Participant loaded from xml ProcessRef = Requester
+18:06:57,695 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:06:57,695 INFO  located a condition expresssionstatus="rejected"
+18:06:57,695 INFO  located a condition expresssionstatus="approved"
+18:06:57,700 INFO  Process:load 30 - ended @ 0.017063140869141
+18:06:57,731 INFO  Process:load 30
+18:06:57,732 INFO  path : files/workflow/30/proc_30.bpmn
+18:06:57,732 INFO  loading messagemessage
+18:06:57,732 INFO  loading messagemessage
+18:06:57,733 INFO  loading messagemessage
+18:06:57,733 INFO  loading messagemessage
+18:06:57,733 INFO  loading messagemessage
+18:06:57,738 INFO  model:process tag Process_1 - Approver
+18:06:57,739 INFO  model:process tag Requester - Requester
+18:06:57,739 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:06:57,739 INFO  Participant loaded from xml ProcessRef = Process_1
+18:06:57,739 INFO  Participant loaded from xml ProcessRef = Requester
+18:06:57,740 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:06:57,740 INFO  located a condition expresssionstatus="rejected"
+18:06:57,740 INFO  located a condition expresssionstatus="approved"
+18:06:57,742 INFO  Process:load 30 - ended @ 0.010331153869629
+18:06:57,806 INFO  Process:load 30
+18:06:57,806 INFO  path : files/workflow/30/proc_30.bpmn
+18:06:57,807 INFO  loading messagemessage
+18:06:57,807 INFO  loading messagemessage
+18:06:57,807 INFO  loading messagemessage
+18:06:57,807 INFO  loading messagemessage
+18:06:57,807 INFO  loading messagemessage
+18:06:57,810 INFO  model:process tag Process_1 - Approver
+18:06:57,810 INFO  model:process tag Requester - Requester
+18:06:57,810 INFO  model:process tag Slack_Action_Receiver - Slack Action Receiver
+18:06:57,810 INFO  Participant loaded from xml ProcessRef = Process_1
+18:06:57,810 INFO  Participant loaded from xml ProcessRef = Requester
+18:06:57,810 INFO  Participant loaded from xml ProcessRef = Slack_Action_Receiver
+18:06:57,810 INFO  located a condition expresssionstatus="rejected"
+18:06:57,811 INFO  located a condition expresssionstatus="approved"
+18:06:57,812 INFO  Process:load 30 - ended @ 0.0058019161224365
